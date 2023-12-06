@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="ApplicationStyle.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="div1"><a href="Hot Beans website.html"> <img src="Assets\Hot beans logo.jpg" width="200" height="128"></a> </div>
+        <div class="div2">
+        </div>
+        <div class="div3">
+            <table style="width:100%">
+            <tr>
+                <th><a href="Courses.html" target="_self">Courses</a> </th>
+                <th><a href="Application page.html" target="_self">Apply here</a></th>
+                <th><a href="Trainee.html" target="_self">Our team</a> </th>
+                <th><a href="Company profile.html" target="_self">Company profile</a> </th>
+                <th><a href="Contacts.html" target="_self">Contact us!</a> </th>
+            </tr>
+        </table><br>
+        <h1>Insert your CV here:</h1>
+        <form>
+            <form action="/action_page.php">
+                <input type="file" id="myFile" name="filename">
+              </form>
+              <h3>Please provide us with your contact details:</h3>
+              <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="information">Email</label><br>
+                <input type="text" id="information" name="information"><br>
+                <label for="Phone">Phone number</label><br>
+                <input type="text" id="Phone" name="Phone"><br>
+                <label for="Gender">Gender</label><br>
+                <input type="text" id="Gender" name="Gender"><br>
+              </form>
+     <h3>Do you have any previous work experience? Please type below.(optional)</h3>
+     <textarea name="message" rows="10" cols="auto"></textarea>
+     <h3>Please name any referees:</h3>
+     <p>Referee 1</p>
+     <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="information">Email</label><br>
+        <input type="text" id="information" name="information"><br>
+        <label for="Phone">Phone number</label><br>
+        <input type="text" id="Phone" name="Phone"><br>
+     </form>
+     <p>Referee 2</p>
+     <form>
+        <label for="first">First name:</label><br>
+        <input type="text" id="first" name="first"><br>
+        <label for="last">Last name:</label><br>
+        <input type="text" id="last" name="last"><br>
+        <label for="Email">Email</label><br>
+        <input type="text" id="Email" name="Email"><br>
+        <label for="Number">Phone number</label><br>
+        <input type="text" id="Number" name="Number"><br>
+      </form><br>
+      <form method="POST" action="Submitted.html">
+        <input type="checkbox" id="work" name="work" value="Own">
+        <label for="work"> I Ackowledge this as my own work</label><br>
+        <input type="checkbox" id="terms" name="terms" value="service">
+        <label for="terms"> I agree to the company's terms of service</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I can prove my right to work</label><br>
+        <input type="submit"/>
+    </div>
+        </div>
+</body>
+</html>

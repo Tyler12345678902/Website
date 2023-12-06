@@ -1,0 +1,75 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 3 / 1 / 6 / 6; }
+    .div3 { grid-area: 2 / 1 / 6 / 6; }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      .table {
+        margin-top:auto;
+      }
+      a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: green;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color:dimgrey;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+          /* Style to center the images */
+          .slideshow-container {
+              max-width: 600px;
+              margin: auto;
+          }
+  
+          /* Style for the images */
+          .mySlides {
+              display: none;
+          }
+  
+          /* Style for navigation dots */
+          .dot {
+              height: 15px;
+              width: 15px;
+              margin: 0 2px;
+              background-color: #bbb;
+              border-radius: 50%;
+              display: inline-block;
+              transition: background-color 0.6s ease;
+          }
+  
+          .active {
+              background-color: #717171;
+          }
+          .mySlides img {
+            display: block;
+            width: 100%; /* Adjust the width as needed */
+            height: auto; /* Maintain the aspect ratio */
+        }
+        h1, h2, h3, h4, h5, p {
+          text-align: center;
+        }

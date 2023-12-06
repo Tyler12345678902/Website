@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="HotBeansStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Company Slideshow</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="div1"><a href="Hot Beans website.html"> <img src="Assets\Hot beans logo.jpg" width="200" height="128"></a> </div>
+        <div class="div2"> </div>
+        <div class="div3">
+            <table style="width:100%">
+            <tr>
+              <th><a href="Courses.html" target="_self">Courses</a> </th>
+              <th><a href="Application page.html" target="_self">Apply here</a></th>
+              <th><a href="Trainee.html" target="_self">Our team</a> </th>
+              <th><a href="Company profile.html" target="_self">Company profile</a> </th>
+              <th><a href="Contacts.html" target="_self">Contact us!</a> </th>
+            </tr>
+        </table><br>
+        
+<div class="slideshow-container">
+
+    <!-- Images -->
+    <div class="mySlides">
+        <img src="Assets/Building.jfif" alt="Web Development Company Image 1">
+    </div>
+
+    <div class="mySlides">
+        <img src="Assets/Developers.jfif" alt="Web Development Company Image 2">
+    </div>
+
+    <div class="mySlides">
+        <img src="Assets/Set up.jpg" alt="Web Development Company Image 3">
+    </div>
+
+    <!-- Navigation dots -->
+    <div style="text-align:center; margin-top: 20px;">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+</div>
+<script>
+    // JavaScript for slideshow functionality
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        const slides = document.getElementsByClassName("mySlides");
+        const dots = document.getElementsByClassName("dot");
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        slideIndex++;
+
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
+<h1>Our products</h1>
+<h3>Currently, we at Hot Beans web development are showing off our products so that</h3>
+<h3>our clients and users will be able to see how we work, the work we do and if it suits what they are looking for.</h3>
+<h3>This is a brilliant way for us to gain feedback as well as improving our knowledge in web design.</h3>
+<h3>If you are a client looking for someone to make a website and you like our work please don't be shy</h3>
+<h3>and contact us via email or mobile.</h3>
+<h3>Our products range from various different categories. This may include making websites, games</h3>
+<h3>and refurbishing anything you send at us.</h3>
+<h1>Work in Progress</h1>
+<h3>As an employee at Hot Beans, I'm thrilled to provide you with a sneak peek into our latest web</h3><h3> 
+    development work-in-progress (WIP) product. At Hot Beans, we're not just developers; we're passionate innovators,</h3><h3>
+ and our current project embodies this spirit. Our upcoming product is more than just lines of code</h3><h3>
+     and sleek designs—it's a game-changer in the world of web development. While I can't spill all the</h3><h3>
+         beans just yet (pun intended!), I can share some exciting highlights that have us buzzing with anticipation.</h3><h3>
+Seamless User Experience:</h3><h3>
+Our WIP product is designed with the end-user in mind. We're meticulously crafting a seamless and intuitive</h3><h3>
+ user experience that goes beyond expectations. Navigating through the product will be a breeze,</h3><h3>
+  and users can expect a visually engaging interface that combines aesthetics with functionality.</h3><h3>
+Cutting-Edge Technologies:</h3><h3>
+At Hot Beans, we thrive on staying ahead of the curve. Our developers are incorporating the latest and greatest technologies</h3><h3>
+ to ensure that our product not only meets current standards but sets new ones. From innovative frameworks</h3><h3>
+  to robust backend solutions, we're leaving no stone unturned to make this product a technological marvel.</h3><h3>
+Scalability and Performance: Scalability is a key focus in our WIP product.</h3><h3>
+ Whether you're a startup with ambitious growth plans or an established enterprise, our solution is engineered</h3><h3>
+  to scale seamlessly. Expect top-notch performance that not only meets but exceeds industry benchmarks.</h3><h3>
+Collaborative Development Process:</h3><h3>
+The journey of creating this product has been a collaborative adventure. Our team of talented developers, </h3><h3>
+designers, and project managers have come together to bring their unique skills and perspectives to the table.</h3><h3>
+ The synergy within the team is palpable, and this collaborative spirit is evident in every line of code and every pixel of design.</h3><h3>
+Innovative Features: Our WIP product isn't just another run-of-the-mill solution.</h3><h3>
+ We're introducing innovative features that will set it apart in a crowded digital landscape. From groundbreaking</h3><h3>
+  functionalities to user-centric tools, our product is poised to make waves.</h3><h3>
+Customer-Centric Approach: At Hot Beans, our customers are at the heart of everything we do.</h3><h3>
+ Throughout the development process, we've been gathering feedback</h3><h3>
+  and insights to ensure that our product aligns with the needs and expectations of our diverse user base.</h3><h3>
+   This customer-centric approach ensures that our WIP product not only meets but exceeds user expectations.</h3><h3>
+    As an employee, being part of this project is not just a jobit's a source of pride.</h3><h3>
+     We're eager to unveil the finished product and witness the impact it will have on our clients and users.</h3><h3>
+      Stay tuned for the big reveal, because at Hot Beans, we're not just developing; we're shaping the future of web solutions.</h3><h3>
+       The best is yet to come!</h3>
+       <h3>That is all we have to say. Please feel free to explore our website more.</h3>
+</body>
+</html>
+    </div>
+</body>

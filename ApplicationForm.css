@@ -1,0 +1,45 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 3 / 1 / 6 / 6; }
+    .div3 { grid-area: 2 / 1 / 6 / 6; }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      .table {
+        margin-top: 100px;
+      }
+      .h1 {
+        align:right;
+      }
+      a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: rgb(28, 176, 28);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: green;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color:dimgrey;
+        background-color: transparent;
+        text-decoration: underline;
+      }

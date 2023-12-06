@@ -1,0 +1,49 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 3 / 1 / 6 / 6; }
+    .div3 { grid-area: 2 / 1 / 6 / 6; }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      .table {
+        margin-top:auto;
+      }
+      a:link {
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color :rgb(0, 0, 0);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: green;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color:dimgrey;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    
+    .div2 {
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% -80%;
+        background-image: url(https://th.bing.com/th/id/R.6212de0edfcfa19dc9d0ab1c2b7ccfee?rik=ft3WjZa1w4Ahow&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f7%2fd%2fc%2f15327.jpg&ehk=apgWS8cSuTBWAK%2b4St%2fPwFO05%2baUkcOL4DtcROqV7hc%3d&risl=&pid=ImgRaw&r=0);
+    }
